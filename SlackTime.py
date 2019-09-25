@@ -4,7 +4,7 @@ from slack import WebClient
 
 ts1 = time.time()
 print (ts1)
-slack_token ='xoxp-754552798980-755017691632-767089405015-d47cfdc1e038b8bffb5ba45f25886cf8'
+slack_token ='xoxp-'
 sc = WebClient(slack_token)
 channel_name = 'general'
 
