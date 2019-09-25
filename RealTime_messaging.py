@@ -27,6 +27,6 @@ def say_hello(**payload):
 			thread_ts=thread_ts
 		
 		)
-slack_token = 'xoxp-754552798980-755017691632-767089405015-d47cfdc1e038b8bffb5ba45f25886cf8'
+slack_token = 'xoxp-'
 rtm_client = slack.RTMClient(token=slack_token)
 rtm_client.start()
