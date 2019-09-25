@@ -3,15 +3,14 @@ import slack
 from slack import WebClient
 from slackbot.slackclient import SlackClient
 
-#slack_token = os.environ["xoxp-754552798980-755017691632-757262358374-c0070416328b44d0269c7ab089ac007a"]
 
-slack_token = "xoxp-754552798980-755017691632-757262358374-c0070416328b44d0269c7ab089ac007a"
+slack_token = "xoxp-"
 client = slack.WebClient(token=slack_token)
 '''slack_c = SlackClient(slack_token)
 with open('./wt.pdf', 'rb') as f:
    slack_c.api_call(
        "files.upload",
-       channels='CMVG8MWLT',
+       channels='CXXXXXXX',
         filename='wt.pdf',
         title='sampletitle',
         initial_comment='sampletext',
@@ -24,7 +23,7 @@ client.files_upload(
 title="Test upload")
 '''
 #from slackclient import SlackClient
-sc = SlackClient("UNEU07DQQ")
+sc = SlackClient("UNEXXXXXX")
 sc.api_call(
   'files.upload', 
   channels='#general', 
