@@ -4,7 +4,7 @@ import slack
 from slackbot.slackclient import SlackClient
 from slack import WebClient
 
-slack_token = 'xoxp-754552798980-755017691632-767089405015-d47cfdc1e038b8bffb5ba45f25886cf8'
+slack_token = 'xoxp-'
 channel_name = 'general'
 date_from = '2019-09-10'
 date_to = '2019-09-23'
