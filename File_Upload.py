@@ -18,8 +18,8 @@ with open('./wt.pdf', 'rb') as f:
     )
 	'''
 client.files_upload(
- channels="CMVG8MWLT",
- file="wt.pdf",
+ channels="CXXXXXX",
+ file="X.pdf",
 title="Test upload")
 '''
 #from slackclient import SlackClient
